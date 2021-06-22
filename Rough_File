@@ -1,0 +1,44 @@
+ <Card
+      imgsrc={Sdata[0].imgscr}
+      sname={Sdata[0].sname}
+      link={Sdata[0].links}
+   />
+  <Card
+     imgsrc={Sdata[1].imgscr}
+      sname={Sdata[1].sname}
+      link={Sdata[1].links}
+   />
+   <Card
+       imgsrc={Sdata[2].imgscr}
+      sname={Sdata[2].sname}
+      link={Sdata[2].links}
+   /> 
+
+   const Sdata = [
+    {
+        imgscr: "",
+        sname: "LinkedIn",
+        links: "www.linkedin.com/prabhatmishra",
+    },
+    {
+        imgscr: "",
+        sname: "Hackerrank",
+        links: "www.linkedin.com/prabhatmishra",
+    }, {
+        imgscr: "",
+        sname: "GitHub",
+        links: "www.linkedin.com/prabhatmishra",
+    },
+    {
+        imgscr: "",
+        sname: "CodeChef",
+        links: "www.linkedin.com/prabhatmishra",
+    },
+    {
+        imgscr: "",
+        sname: "GeeksforGeek",
+        links: "www.linkedin.com/prabhatmishra",
+    }
+]
+
+export default Sdata;

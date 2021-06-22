@@ -1,0 +1,126 @@
+body
+{
+   background-image:linear-gradient(90deg ,rgb(0, 0, 0),rgb(2,50,50),rgb(50,1,50),rgb(50,50,0));
+}
+.details
+{
+   border: 0px solid black;
+   width: 94%;
+   margin: 3% 3%; 
+   float: left;
+}
+.card
+{
+    background-color: rgb(255, 71, 71);
+    border: 0.3px solid black;
+    border-radius: 8px;
+    margin:2% 4%;
+    width: 400px;
+    float: left;
+    height: 400px;
+}
+button
+{
+    margin:.5% 35%;
+    border: .5px solid black;
+    /* border-radius:10px; */
+    padding:2% 5%;
+    font-size: 17px;
+    font-weight: bolder;
+    background-color: rgb(241, 241, 247);
+}
+h2
+{
+    text-align: center;
+    color: rgb(20, 220, 20);
+}
+img
+{
+  width: 100%;
+  height: 69%;
+}
+a
+{
+  text-decoration: none;
+  color: rgb(0, 9, 17);
+}
+
+#menu
+{
+    display: flex;
+    flex-direction:row;
+    background-color: teal;
+    /* border-radius: 50px; */
+    /* background-image: linear-gradient(120deg,rgb(0, 217, 255),rgb(0, 110, 255),rgb(0, 26, 255)); */
+}
+#name
+{
+    border: 4px solid rgb(0, 132, 255);
+    border-radius:100%;
+    margin-left: 5%;
+    height: fit-content;
+    width: fit-content;
+    padding: 2% 2%;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    background-image:linear-gradient(120deg,rgba(0, 21, 143, 0.425),rgba(13, 8, 66, 0.78)) ;
+    animation:rotation 1.5s ;
+}
+@keyframes rotation {
+    from
+    {
+        transform:rotate(0deg);
+        /* min-height: fit-content; */
+    }        
+    to 
+    {
+        transform:rotate(359deg);
+        /* max-height: max-content; */
+    }
+  }
+
+#nav
+{
+    display: flex;
+    flex-direction:row;
+    border:0px solid black;
+}
+#nav ul
+{
+    overflow: auto;
+}
+#nav li
+{
+    float:left;
+    list-style: none; 
+    margin: 15px 120px;        
+}
+#nav li a 
+{
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: rgb(112, 0, 93);
+}
+marquee
+{
+   font-size: 55px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bolder;
+   text-align: center;
+   color: thistle;
+   text-decoration: underline;
+   padding-top: 2%;
+}
+.card:hover
+{
+    box-shadow: 2px 2px black;
+}
+button :hover
+{
+    color: blue;
+}
